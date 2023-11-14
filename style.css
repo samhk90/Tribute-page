@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+#banner{
+    background-image: url("img/banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:650px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.subheading{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    margin-bottom: 2rem;
+    border-bottom: white solid 1px;
+}
+#para{
+    padding: 100px;
+    text-align: center;
+    padding: 50px;
+}
+.textpara{
+    font-size: 1.5rem;
+    padding: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    border-bottom: white solid 1px;
+    text-align: justify;
+    text-justify: inter-word;
+}
